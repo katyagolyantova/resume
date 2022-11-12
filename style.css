@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+.container {
+  margin: auto;
+  max-width: 750px;
+}
+body {
+   font-family: 'Montserrat', sans-serif; 
+   font-size: 17px;
+   letter-spacing: 0cm;
+   font-weight: normal;
+   color: #0f141e;
+   background: #f1f1f1;
+}
+
+.img {
+  box-shadow: 0 2px 4px rgba(0, 0, 0, .25);
+}
+.info {
+  margin-bottom: 20px;
+  display: flex;
+}
+
+.info-text {
+  margin-left: 40px;
+}
+
+.info-text p {
+    font-weight: bold;
+    font-style: italic;
+}
+
+@media (max-width: 700px) {
+  .info {
+    display: block;
+    text-align: center;
+  }
+}
+
+ .name {
+    color: #191907;
+    margin-bottom: 5px;
+
+ }
+ .card-1 {
+   background: #B0C4DE;
+   border-radius: 20px;
+   padding: 2px 10px;
+   margin-bottom: 20px;
+   box-shadow: 0 2px 4px rgba(0, 0, 0, .25);
+
+ }
+ .card-2 {
+   background: lightpink;
+   border-radius: 20px;
+   padding: 2px 10px;
+   margin-bottom: 20px;
+   box-shadow: 0 2px 4px rgba(0, 0, 0, .25);
+ }
+ 
+
+.card-3 {
+  background: #FFFFE0;
+  border-radius: 20px;
+  padding: 2px 10px;
+  margin-bottom: 20px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, .25);
+}
+p {
+  padding: 0px 0px 0px 10px;
+}
+
+.link {
+  padding: 10px 10px;
+  margin-bottom: 20px;
+}
+
+.link a {
+  text-decoration: none;
+  color: #000;
+}
+.link a:visited {
+  color: crimson;
+}
+
+.btn {
+  background: orange;
+  border: none;
+  cursor: pointer;
+  font-family: inherit;
+  padding: 15px 20px;
+}
+.btn:hover {
+  opacity: .8;
+}
+.table {
+  width: 100%;
+  padding: 5px 10px;
+}
+.table td {
+  text-align: center;
+  padding-bottom: 10px;
+  background: floralwhite;
+}
+.table th {
+  background: gainsboro;
+}
+.form {
+  margin: 15px;
+}
+
+.list li {
+  margin-bottom: 10px;
+}
+
+.form  h2 {
+  text-align: center;
+}
+
+.form-row {
+  margin-bottom: 10px;
+  }
+
+.form-row .form-group {
+  display: inline-block;
+  margin-right: 20px;
+  width: 45%;
+}
+
+@media (max-width: 650px) {
+  .form-row {
+    display: block;
+  }
+  .form-row .form-group {
+    width: 100%;
+    margin-right: 0px;
+    margin-bottom: 10px;
+  }
+}
+
+.form-group label {
+  display: block;
+  font-size: 15px;
+}
+
+.form-group .message {
+  margin-top: 40px;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  box-sizing: border-box;
+  border: none;
+  background: transparent;
+  border-bottom: 1px solid #ccc;
+  color: #000;
+  padding: 15px 0 10px;
+  outline: none;
+  font-family: inherit;
+}
+
+.form .name {
+  margin-bottom: 40px;
+}
+
+
+
